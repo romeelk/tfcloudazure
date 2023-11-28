@@ -3,6 +3,7 @@ locals {
     environment = "dev"
     source = "terraformcloud"
     org = "example"
+    component = "infrastructure"
   }
 }
 resource "azurerm_resource_group" "rg" {
