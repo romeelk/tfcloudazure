@@ -1,7 +1,8 @@
 locals {
   tags = {
     environment = "dev"
-    source = "terraformclous"
+    source = "terraformcloud"
+    org = "example"
   }
 }
 resource "azurerm_resource_group" "rg" {
